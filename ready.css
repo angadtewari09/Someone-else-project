@@ -1,0 +1,91 @@
+/*span*/
+
+span {
+    color:#1C86EE	;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    align-content:center;
+    display: block;
+    text-align: center;
+    margin-top: 3.9rem;
+    width: auto;
+    height: auto;
+
+}
+.greetings  {
+    
+    color:white;
+    line-height: 2.5rem;
+}
+.homecontent h1 {
+    font-size:2.2rem;
+    color:white;
+
+}
+.section1 {
+    padding:30px;
+    height: auto;
+    width: auto;
+    margin-left:auto;
+    margin-right: auto;
+    background:#131f33;
+    padding-bottom:10rem ;
+    clip-path: polygon(0 0, 100% 0 , 100% 100% , 75% 92% , 0 100%);  
+}
+.section2 {
+    height: auto;
+    width: auto;
+    margin-left:auto;
+    margin-right: auto;
+    padding:30px;
+    
+    clip-path: polygon(0 0, 100% 0 , 100% 100% , 75% 95% , 0 100%); 
+}
+
+.super {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0.9rem;
+    margin-top: 3.9rem;
+
+}
+#para {
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/*Demo tessting the codde*/
+
+
+.box-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 320px;
+    height:auto;
+    text-align: jusify;
+    margin:20px;
+    padding: 20px;    
+    transition:0.8s;
+}
+.address-box .info p {
+    font-size: 20px;
+    margin-left:15px;
+    color:#fff;
+}

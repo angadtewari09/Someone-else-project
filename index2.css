@@ -1,0 +1,213 @@
+/*Alll the media queries start here*/
+@media (max-width:375px) {
+   
+    #navbar_list li a {
+        display: block;
+        color:white;
+        text-align: center;
+        padding: 14px 14px;
+        font-size: 12px;
+        text-decoration:none;
+        background: #22242A;
+        font-family: 'Oswald', sans-serif;
+    }
+   #navbar_list li a:hover {
+        background-color: #37f;
+        color:white;
+        font-weight: bolder;
+        transition: ease 0.5s all;
+    }
+}
+@media (max-width:375px) {
+    .section1 {
+        padding:30px;
+        padding-left: auto;
+        padding-right: auto;
+        height:auto;
+        width:570px;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 10px;
+    }
+
+}
+@media (max-width:375px) {
+    .super {
+        width:200px;
+        height: 200px;
+        margin-left: auto;
+    }
+    .section1 {
+        padding:30px;
+        height: auto;
+        width: auto;
+        margin-left:auto;
+        margin-right: auto;
+        background:#131f33;
+        padding-bottom:10rem ;
+        clip-path: polygon(0 0, 100% 0 , 100% 100% , 70% 95% , 0 100%);
+    }
+    #navbar_list li a  {
+        font-size: 15px;;
+    }
+    .avatar {
+        width: 220px;
+        height:220px;
+        border-radius: 10px 100px 100px 1px;
+    } 
+    .single-box{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 250px;
+        height:auto;
+        text-align: jusify;
+        margin:20px;
+        padding: 20px;    
+        transition:0.8s;
+    }
+    #double {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        width: 250px;
+        height:auto;
+        text-align: justify;
+        margin:auto;
+        padding: 10px;    
+        transition:0.8s;
+    }
+    .homecontent h1 {
+        font-size:1.8rem;
+        color:white;
+    }
+    .about {
+        font-size: 2.5rem;
+    }
+    .sect {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-control {
+        width:50%;
+        background:transparent;
+        border:none;
+        border-bottom: 2px solid gray;
+        outline:none;   
+        color:#fff;
+        margin-bottom:16px;
+    }
+    .social {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    
+}
+@media (max-width:655px) {
+    .form-control {
+        width:50%;
+        background:transparent;
+        border:none;
+        border-bottom: 2px solid gray;
+        outline:none;   
+        color:#fff;
+        margin-bottom:16px;
+    }
+    .social {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media (max-width:750px) {
+    .form-control {
+        width:50%;
+        background:transparent;
+        border:none;
+        border-bottom: 2px solid gray;
+        outline:none;   
+        color:#fff;
+        margin-bottom:16px;
+    }
+    .social {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+}
+@media (max-width:850px) {
+    .form-control {
+        width:60%;
+        background:transparent;
+        border:none;
+        border-bottom: 2px solid gray;
+        outline:none;   
+        color:#fff;
+        margin-bottom:16px;
+    }
+    .social{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+}
+@media (max-width:410px) {
+    .social {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .address-box{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding:20px;
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width:460px) {
+    .social {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .address-box{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding:20px;
+        flex-wrap: nowrap;
+    }  
+}
+@media (max-width:360px)
+{
+    .single-img{
+        height: 250px;
+        width:250px;
+    }
+}
+@media (max-width:660px)
+{
+    .single-img{
+        height: 250px;
+        width:250px;
+    }
+}
+@media (max-width:565px)
+{
+    .single-img{
+        height: 250px;
+        width:250px;
+    }
+}
+/*Alll the media queries end here*/
