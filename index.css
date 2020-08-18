@@ -1,258 +1,253 @@
 @import "index2.css";
 * {
-    padding:0;
-    box-sizing: border-box;
-    margin:0;
-    list-style-type: none;
-    font-family: 'Fira Sans', sans-serif;
-    text-decoration:none;
-   
-
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	list-style-type: none;
+	font-family: "Fira Sans", sans-serif;
+	text-decoration: none;
 }
 /*MAin picture*/
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 .hero {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .super {
-    height: 400px;
-    width: 350px;
+	height: 400px;
+	width: 700px;
 }
-/*Navbar design starts here*/ 
+/*Navbar design starts here*/
 .navbar_head {
-    background:#22242A;
-    position: fixed;
-    top:0;
-    width: 100%;
-    z-index:5;
+	background: #22242a;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
 }
 
 .navbar_menu ul {
-    padding-left: 0;
-    margin:0;
-    text-align: right;
+	padding-left: 0;
+	margin: 0;
+	text-align: right;
 }
 
 .navbar_menu li {
-    display:inline-block;
+	display: inline-block;
 }
 
 #navbar_list ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    background-color:#22242A;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #22242a;
 }
 
-#navbar_list li { 
-    float: left;
+#navbar_list li {
+	float: left;
 }
 
 #navbar_list li a {
-    display:block;
-    color:white;
-    text-align: center;
-    padding:14px 16px;
-    text-decoration:none;
-    background: #22242A;
-    font-family: 'Oswald', sans-serif;
-    font-size:20px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background: #22242a;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
 }
 #navbar_list li a:hover {
-    background-color: #37f;
-    color:white;
-    font-weight: bolder;
-    transition: ease 0.5s all;
+	background-color: #37f;
+	color: white;
+	font-weight: bolder;
+	transition: ease 0.5s all;
 }
 #navbar_list li a:focus {
-    
-    color:white;
-    font-weight: bolder;
-    border:1px solid #37f;
-    transition: ease 0.5s all;
+	color: white;
+	font-weight: bolder;
+	border: 1px solid #37f;
+	transition: ease 0.5s all;
 }
 /*Navbar design ends here*/
 
 /*FOOTER*/
 .foot {
-    position: fixed;
-    background: #22242A;
-    color:white;
-    bottom: 0;
-    left:0;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-    
-    padding:15px;
-    margin-top: 40px;
+	position: fixed;
+	background: #22242a;
+	color: white;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+
+	padding: 15px;
+	margin-top: 40px;
 }
 
 /*Aboutme SECTION*/
 .avatar {
-    width: 300px;
-    height:300px;
-    border-radius: 10px 100px 100px 1px;
+	width: 350px;
+	height: 450px;
+	border-radius: 10px 100px 100px 1px;
 }
 
 /*About Me Section2*/
 .about {
-    text-align: center;
-    margin-top:1.5rem;
-    font-family: 'Oswald', sans-serif;
-    font-size:3.5rem;
-    margin-left:auto;
-    position: relative;
-    transition:0.4
+	text-align: center;
+	margin-top: 1.5rem;
+	font-family: "Oswald", sans-serif;
+	font-size: 3.5rem;
+	margin-left: auto;
+	position: relative;
+	transition: 0.4;
 }
 /*contacts sections4*/
 /*Textarea form filling begins*/
 .section4 {
-    text-align: center;
-    background:#131f33;
-    font-family: 'Fira Sans', sans-serif;
-    clip-path: polygon(0 0,25% 6% ,100% 0 , 100% 100%  , 0 100%);  
+	text-align: center;
+	background: #131f33;
+	font-family: "Fira Sans", sans-serif;
+	clip-path: polygon(0 0, 25% 6%, 100% 0, 100% 100%, 0 100%);
 }
 .contact-title {
-    margin-top: 100px;
-    color:black;
-    text-transform:uppercase;
-    transition: all 0.4s ease-in-out;
+	margin-top: 100px;
+	color: black;
+	text-transform: uppercase;
+	transition: all 0.4s ease-in-out;
 }
 #leave {
-   
-    position: relative;
-    font-size: 32px;
-    line-height: 40px;
-    color:#fff;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    
-
+	position: relative;
+	font-size: 32px;
+	line-height: 40px;
+	color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 }
 #leaf {
-    color:#fff;
-    padding-top:80px;
+	color: #fff;
+	padding-top: 80px;
 }
 form {
-    margin-top: 50px;
-    transition:all .4s ease-in-out;
+	margin-top: 50px;
+	transition: all 0.4s ease-in-out;
 }
 textarea {
-    resize: none;
+	resize: none;
 }
 .form-control {
-    width:600px;
-    background:transparent;
-    border:none;
-    border-bottom: 1px solid #fff;
-    outline:none;   
-    color:#fff;
-    margin-bottom:16px;
+	width: 600px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	color: #fff;
+	margin-bottom: 16px;
 }
 input {
-    height:45px;
-    text-align:justify;
+	height: 45px;
+	text-align: justify;
 }
 form .submit {
-    background: #ff5722;
-    text-align:center;
-    border-color: transparent;
-    font-size:20px;
-    color: #fff;
-    font-weight: bold;
-    height: 50px;
-    margin-top: 20px;
+	background: #ff5722;
+	text-align: center;
+	border-color: transparent;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+	height: 50px;
+	margin-top: 20px;
 }
 form .submit:hover {
-    background: #c4350d;
-    font-weight: bolder;
+	background: #c4350d;
+	font-weight: bolder;
 }
 .basic-back {
-    padding-top: 80px;
-    margin-top:25px;
-    margin-bottom: 45px;
-    padding-bottom: 45px;
+	padding-top: 80px;
+	margin-top: 25px;
+	margin-bottom: 45px;
+	padding-bottom: 45px;
 }
 /*Textarea form filling ends here*/
 .social {
-    background: #0f3959;
-    margin-top:50px;
-    padding-top:25px;
-    padding-bottom: 15px;
-    margin-right: auto;
-    margin-left:auto;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 500px;
-    box-shadow: 10px 10px 60px rgb(0,0,0,.5) ;
+	background: #0f3959;
+	margin-top: 50px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 500px;
+	box-shadow: 10px 10px 60px rgb(0, 0, 0, 0.5);
 }
 /*Social media box*/
 .address-box span {
-    color:whitesmoke;
+	color: whitesmoke;
 }
 
-.address-box{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding:80px;
-    flex-wrap: nowrap; padding-top: 20px;
-    
+.address-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 80px;
+	flex-wrap: nowrap;
+	padding-top: 20px;
 }
 
 .address-box .info {
-    position:relative;
-    margin:20px 0;
+	position: relative;
+	margin: 20px 0;
 }
 
-.address-box .info li{
-    position:relative;
-    display:flex;
-    margin:20px 0;
-    padding:20px 0;
-    cursor: pointer;
-    align-items: flex-start;
-    
+.address-box .info li {
+	position: relative;
+	display: flex;
+	margin: 20px 0;
+	padding: 20px 0;
+	cursor: pointer;
+	align-items: flex-start;
 }
 /*Section3 picture gallery*/
 .heading {
-    color:black;
+	color: black;
 }
 #picture {
-    font-family: 'Oswald', sans-serif;
+	font-family: "Oswald", sans-serif;
 }
 /*picture gallery*/
 .img-area {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 .single-img {
-    height: 300px;
-    width:300px;
-    margin:30px;
-    box-shadow: 10px 10px 50px rgb(0,0,0,.5) ;
-    filter: grayscale(100%);
-    transition: 1s;
+	height: 300px;
+	width: 300px;
+	margin: 30px;
+	box-shadow: 10px 10px 50px rgb(0, 0, 0, 0.5);
+	filter: grayscale(100%);
+	transition: 1s;
 }
-.single-img:hover{
-    filter: grayscale(0);  
-    transform: scale(1.1);
+.single-img:hover {
+	filter: grayscale(0);
+	transform: scale(1.1);
 }
 .wrapper {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+#para p {
+	text-align: center;
 }
